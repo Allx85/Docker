@@ -1,0 +1,20 @@
+services:
+
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: p
+      MYSQL_DATABASE: Exile
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: Linux4Ever
+    volumes: 
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      
