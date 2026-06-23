@@ -2,7 +2,7 @@
 
 ## Inledning
 
-Tanken med labben var att labba med tekniker som är "buzzwords" i branchen.
+Tanken med labben var att labba med tekniker som är "buzzwords" i branschen.
 
 ## Utförande
 
