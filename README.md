@@ -19,8 +19,6 @@ Tanken med labben var att labba med tekniker som är "buzzwords" i branschen.
 
 * Skapa en fil som skickas till container, *init.sql*
 
-## Sammanfattning
-
 ## Lärdommar
 
 * `docker compose down -v` - rensar en befintlig image
@@ -29,5 +27,19 @@ Tanken med labben var att labba med tekniker som är "buzzwords" i branschen.
 
 * Lägg till `volume` i *compose.yaml* för att skapa flera databaser från start via *init.sql*
 
+## Kommandon
 
+* `docker images` lista images
+
+* `docker run` starta en container
+
+* `docker ps` visa körande containrar
+
+* `docker stop` stoppa en container
+
+* `docker rm` tar bort en container
+
+* `docker rmi` tar bort en image
+
+* `docker system prune` rensa oanvända resurser
 
