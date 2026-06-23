@@ -23,8 +23,6 @@ Tanken med labben var att labba med tekniker som är "buzzwords" i branschen.
 
 * `docker compose down -v` - rensar en befintlig image
 
-* `docker ps` - visar aktiva containers
-
 * Lägg till `volume` i *compose.yaml* för att skapa flera databaser från start via *init.sql*
 
 ## Kommandon
