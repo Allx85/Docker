@@ -25,6 +25,10 @@ Tanken med labben var att labba med tekniker som är "buzzwords" i branschen.
 
 * Lägg till `volume` i *compose.yaml* för att skapa flera databaser från start via *init.sql*
 
+* Bra att kunna stoppa alla docker instanser. `docker stop $(docker ps -q)`
+
+* Tar bort alla docker images `docker system prune -a -f --volumes`
+
 ## Kommandon
 
 * `docker images` lista images
